@@ -1,6 +1,7 @@
 const fs = require("fs");
 const http = require("http");
 const replaceTemplate = require("./utils/replaceTemplate");
+const PORT = process.env.PORT || 9090;
 // READ FILES (Synchronously for simplicity at startup)
 const overviewHtml = fs.readFileSync(
   `${__dirname}/pages/overview.html`,
@@ -13,13 +14,12 @@ const productsHtml = fs.readFileSync(
 const productPartialHtml = fs.readFileSync(
   `${__dirname}/pages/partials/product-partial.html`,
   "utf-8"
-); 
+);
 // Read the 404 template
 const notFoundHtml = fs.readFileSync(`${__dirname}/pages/404.html`, "utf-8");
 
 const data = fs.readFileSync(`${__dirname}/data/data.json`, "utf-8");
 const products = JSON.parse(data);
-
 
 const server = http.createServer((req, res) => {
   // Parse the URL properly
@@ -72,6 +72,6 @@ const server = http.createServer((req, res) => {
   }
 });
 
-server.listen(9090, "127.0.0.1", () => {
-  console.log("Listening to requests on port 9090");
+server.listen(PORT, "127.0.0.1", () => {
+  console.log(`Listening to requests on port ${PORT}`);
 });
