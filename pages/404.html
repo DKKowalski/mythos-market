@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Realm Not Found</title>
+    <style>
+      :root {
+        --bg-color: #f5f5f7;
+        --text-main: #1d1d1f;
+        --text-secondary: #86868b;
+        --accent: #d4af37;
+        --accent-hover: #b5952f;
+      }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif;
+        background-color: var(--bg-color);
+        color: var(--text-main);
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      .error-emoji {
+        font-size: 120px;
+        margin-bottom: 20px;
+        animation: float 3s ease-in-out infinite;
+      }
+      h1 {
+        font-size: 48px;
+        font-weight: 700;
+        margin: 0 0 16px 0;
+        letter-spacing: -0.005em;
+      }
+      p {
+        font-size: 20px;
+        color: var(--text-secondary);
+        margin: 0 0 40px 0;
+        max-width: 500px;
+        line-height: 1.5;
+      }
+      .home-btn {
+        background-color: var(--accent);
+        color: white;
+        text-decoration: none;
+        padding: 15px 35px;
+        font-size: 18px;
+        border-radius: 980px;
+        font-weight: 500;
+        transition: background-color 0.2s, transform 0.1s;
+      }
+      .home-btn:hover {
+        background-color: var(--accent-hover);
+      }
+      .home-btn:active {
+        transform: scale(0.98);
+      }
+
+      @keyframes float {
+        0% {
+          transform: translateY(0px);
+        }
+        50% {
+          transform: translateY(-20px);
+        }
+        100% {
+          transform: translateY(0px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="error-emoji">🔮</div>
+    <h1>Realm Not Found</h1>
+    <p>
+      You have ventured too far into the void. This timeline does not exist in
+      the archives of the Fates.
+    </p>
+    <a href="/" class="home-btn">Return to Safety</a>
+  </body>
+</html>

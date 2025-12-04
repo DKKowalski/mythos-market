@@ -1,0 +1,44 @@
+[
+  {
+    "productId": 1,
+    "productName": "Ambrosia of Olympus",
+    "productPrice": 100,
+    "productImage": "🍯",
+    "productDescription": "The food of the Greek gods. One bite restores full health and grants temporary immortality. Warning: May cause arrogance and a desire to smite mortals. Consuming too much may result in godhood."
+  },
+  {
+    "productId": 2,
+    "productName": "Golden Apple of Idunn",
+    "productPrice": 75,
+    "productImage": "🍎",
+    "productDescription": "Keeps the Norse gods eternally young. Grants +50 Vitality and halts the aging process. A favorite of Loki, though usually stolen rather than bought. Side effects include being chased by giants."
+  },
+  {
+    "productId": 3,
+    "productName": "Nectar of the Vines",
+    "productPrice": 45,
+    "productImage": "🍇",
+    "productDescription": "Blessed by Dionysus himself. Increases Charisma by +20 and grants the 'Party Animal' buff. Perfect for social encounters, though it may decrease Dexterity and Wisdom temporarily."
+  },
+  {
+    "productId": 4,
+    "productName": "Yggdrasil Sap",
+    "productPrice": 150,
+    "productImage": "🌲",
+    "productDescription": "Resin harvested from the World Tree. Connects you to the nine realms, granting 'Cosmic Awareness' and +100 Mana. Taste is described as earthy with a hint of eternal knowledge."
+  },
+  {
+    "productId": 5,
+    "productName": "Pomegranate of the Underworld",
+    "productPrice": 30,
+    "productImage": "🥭",
+    "productDescription": "Six seeds bound Persephone to Hades; one whole fruit grants 'Shadow Walk' and resistance to necrotic damage. Consuming this item binds you to the server for 6 months of the year."
+  },
+  {
+    "productId": 6,
+    "productName": "Mjolnir's Thunderberry",
+    "productPrice": 80,
+    "productImage": "⚡",
+    "productDescription": "Charged with the lightning of Thor. Grants 'Stormstrike' ability on your next attack and +40 Strength. Warning: Extremely spicy. Only those worthy can digest it without heartburn."
+  }
+]
